@@ -1,0 +1,6 @@
+[submodule "diverweb"]
+	path = diverweb
+	url = https://github.com/MathematicalMedicine/diverweb
+[submodule "diverRPC"]
+	path = diverRPC
+	url = https://github.com/MathematicalMedicine/diverRPC
