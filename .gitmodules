@@ -1,6 +1,8 @@
 [submodule "diverweb"]
 	path = diverweb
 	url = https://github.com/MathematicalMedicine/diverweb
+	branch = prod-build
 [submodule "diverRPC"]
 	path = diverRPC
 	url = https://github.com/MathematicalMedicine/diverRPC
+	branch = prod-build
