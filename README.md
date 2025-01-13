@@ -11,6 +11,14 @@ Component repos are currently restricted-access. Whether or not that changes is 
 Prior to 1.0.0-prerelease.1, the below version tracking information was being maintained in a "Just Deployed On DIVER" shared document, as part of testing between NRGR collaborators.
 
 
+## 1.0.0-prerelease.2
+(diverweb 0.50.1, diverRPC 0.33.2, db\_procs 0.30.1, db\_edit 74)
+
+* Fixed an issue in which greater/less than and greater/less than or equal to comparisons could get incorrect results ([#286](https://github.com/MathematicalMedicine/DIVER/issues/286)).
+* Fixed multiple issues in which MySQL 8 compatibility work introduced bugs, particularly with custom variables ([#291](https://github.com/MathematicalMedicine/DIVER/issues/291), [#293](https://github.com/MathematicalMedicine/DIVER/issues/293)).
+* Download Data now properly allows you to re-preview if you change the cohort and/or variable set being downloaded ([#294](https://github.com/MathematicalMedicine/DIVER/issues/294)).
+
+
 ## 1.0.0-prerelease.1
 (diverweb 0.50.0, diverRPC 0.33.1, db\_procs 0.30.0, db\_edit 74)
 
