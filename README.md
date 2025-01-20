@@ -11,6 +11,13 @@ Component repos are currently restricted-access. Whether or not that changes is 
 Prior to 1.0.0-prerelease.1, the below version tracking information was being maintained in a "Just Deployed On DIVER" shared document, as part of testing between NRGR collaborators.
 
 
+## 1.0.0-prerelease.2 (data update redeployment)
+(diverweb 0.50.1, diverRPC 0.33.2, db\_procs 0.30.1, db\_edit 75)
+
+* Found and corrected a number of instances in which the "observations" field for many variables was incorrectly given as 0.
+* Pulled "flag variables" (previously misleadingly known as "dichotomous variables") from the data distribution due to information correctness concerns.
+
+
 ## 1.0.0-prerelease.2
 (diverweb 0.50.1, diverRPC 0.33.2, db\_procs 0.30.1, db\_edit 74)
 
