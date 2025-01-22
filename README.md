@@ -11,6 +11,12 @@ Component repos are currently restricted-access. Whether or not that changes is 
 Prior to 1.0.0-prerelease.1, the below version tracking information was being maintained in a "Just Deployed On DIVER" shared document, as part of testing between NRGR collaborators.
 
 
+## 1.0.0-prerelease.3
+(diverweb 0.50.1, diverRPC 0.33.2, db\_procs 0.30.2, db\_edit 75)
+
+* Partial revert and extension of fix for [#286](https://github.com/MathematicalMedicine/DIVER/issues/286); datestamp comparisons had been inadvertently broken in the process.
+
+
 ## 1.0.0-prerelease.2 (data update redeployment)
 (diverweb 0.50.1, diverRPC 0.33.2, db\_procs 0.30.1, db\_edit 75)
 
