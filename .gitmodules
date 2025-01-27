@@ -6,3 +6,6 @@
 	path = diverRPC
 	url = https://github.com/MathematicalMedicine/diverRPC
 	branch = prod-build
+[submodule "diver-codebooks"]
+	path = diver-codebooks
+	url = https://github.com/MathematicalMedicine/diver-codebooks

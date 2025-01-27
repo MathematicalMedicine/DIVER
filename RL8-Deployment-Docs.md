@@ -17,7 +17,6 @@ Suggested Steps For Deploying DIVER
 You will need:
 
 * Database dumps `DIVER` and `DIVER_ref_2025011917`
-* 'Codebooks' - PDFs of diagnostic interviews (provided in compressed tarball)
 * Access to `https://github.com/MathematicalMedicine/DIVER` and subrepos (or a fork of same)
 
 
@@ -25,11 +24,10 @@ Part 1: Base Environment Setup
 ------------------------------
 
 1. Start with a RHEL-based Linux system, as that's what these instructions assume.
-2. Create a `/var/lib/diver` directory for the application. The contents of the DIVER repo should be copied (or cloned) to this directory (so that you end up with `/var/lib/diver/diverRPC` and `/var/lib/diver/diverweb`).
-3. Create a `/var/lib/diver/codebooks` directory; place the provided codebook PDFs there.
-4. Create a `/var/lib/diver/www-root` directory.
+2. Create a `/var/lib/diver` directory for the application. The contents of the DIVER repo should be copied (or cloned) to this directory (so that you end up with `/var/lib/diver/diverRPC`, `/var/lib/diver/diverweb`, and `/var/lib/diver/diver-codebooks`).
+3. Create a `/var/lib/diver/www-root` directory.
 5. Create the following symlink:
-    * `/var/lib/diver/codebooks` -> `/var/lib/diver/www-root/codebooks`
+    * `/var/lib/diver/diver-codebooks/dist` -> `/var/lib/diver/www-root/codebooks`
 
 
 Part 2: Build and Runtime Environments
