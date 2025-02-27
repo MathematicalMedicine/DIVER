@@ -11,6 +11,12 @@ Component repos are currently restricted-access. Whether or not that changes is 
 Prior to 1.0.0-prerelease.1, the below version tracking information was being maintained in a "Just Deployed On DIVER" shared document, as part of testing between NRGR collaborators.
 
 
+## 1.0.0
+(diverweb 0.50.3, diverRPC 0.33.2, db\_procs 0.30.2, db\_edit 77)
+
+* (Redesignation of rc.3; no code or data changes made)
+
+
 ## 1.0.0-rc.3
 (diverweb 0.50.3, diverRPC 0.33.2, db\_procs 0.30.2, db\_edit 77)
 
