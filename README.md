@@ -1,6 +1,6 @@
 # DIVER
 
-Tracking integrated versioned components for the NRGR DIVER application, currently in prerelease.
+Tracking integrated versioned components for the NRGR DIVER application.
 
 All actual development takes place in the repos for those components, rather than in this repo; this is just how we keep track of what component versions come together for the final package. (We don't even track that final package version here; that's in diverweb's `.env` file). We do, however, do issue tracking here.
 
